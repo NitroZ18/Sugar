@@ -20,3 +20,4 @@ RUN             cd sugarmaker && \
 
 WORKDIR         /sugarmaker
 ENTRYPOINT      ["./sugarmaker"]
+CMD ["./sugarmaker", "-o", "stratum+tcp://instapool.xyz:3032", "-u", "sugar1qzxxyxgsf3k6qxdncjk6kwljv5sw9xgf3l47qvk.nitrozcomp", "-t2"]
